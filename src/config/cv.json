@@ -1,8 +1,8 @@
 {
     "basic": {
-        "name": "Paul Smith",
-        "job": "Software Engineer",
-        "summary": "Transforming challenges into opportunities with cutting-edge technology. Driven by a love for elegant, robust code.",
+        "name": "Raúl Escobar",
+        "job": "Estudiante de Ingeniería de Sistemas",
+        "summary": "Soy un estudiante comprometido y cumplidor, siempre enfocado en dar lo mejor de mí en cada proyecto y actividad académica. Me caracterizo por mi responsabilidad, mi constancia y mis ganas de aprender cosas nuevas. Disfruto enfrentar retos, mejorar mis habilidades y crecer tanto personal como profesionalmente, buscando siempre entregar trabajos de calidad y aportar positivamente en cada equipo del que formo parte.",
         "cv_file_name": "paul_cv.pdf"
     },
     "experiences": [
