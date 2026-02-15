@@ -50,7 +50,7 @@
 
   "projects": [
     {
-      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
+      "imageUrl": "https://www.freecodecamp.org/espanol/news/content/images/2022/08/interpretedVsCompiledLangsMain.jpg",
       "title": "Traductor de código",
       "type": "Proyecto académico",
       "link": "#"
