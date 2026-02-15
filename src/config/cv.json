@@ -64,15 +64,15 @@
   ],
 
   "menuItems": [
-    {
-      "name": "Sobre mí",
-      "link": "/"
-    },
-    {
-      "name": "Proyectos",
-      "link": "/projects"
-    }
-  ],
+  {
+    "name": "Sobre mí",
+    "link": "/about"
+  },
+  {
+    "name": "Proyectos",
+    "link": "/"
+  }
+],
 
   "socialLinks": [
     {
