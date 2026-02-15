@@ -1,86 +1,91 @@
 {
-    "basic": {
-        "name": "Raúl Escobar",
-        "job": "Estudiante de Ingeniería de Sistemas",
-        "summary": "Soy un estudiante comprometido y cumplidor, siempre enfocado en dar lo mejor de mí en cada proyecto y actividad académica. Me caracterizo por mi responsabilidad, mi constancia y mis ganas de aprender cosas nuevas. Disfruto enfrentar retos, mejorar mis habilidades y crecer tanto personal como profesionalmente, buscando siempre entregar trabajos de calidad y aportar positivamente en cada equipo del que formo parte.",
-        "cv_file_name": "paul_cv.pdf"
+  "basic": {
+    "name": "Raúl Escobar",
+    "job": "Estudiante de Ingeniería de Sistemas",
+    "summary": "Hola, soy Raúl Escobar, estudiante de Ingeniería de Sistemas. Me considero una persona responsable, dedicada y con muchas ganas de aprender. Siempre busco dar lo mejor de mí en cada proyecto académico, enfrentar nuevos retos y mejorar constantemente mis habilidades. Me gusta crecer tanto personal como profesionalmente, aportar ideas, trabajar en equipo y entregar trabajos de calidad mientras construyo mi futuro en el mundo de la tecnología.",
+    "cv_file_name": "raul_escobar_cv.pdf"
+  },
+
+  "experiences": [
+    {
+      "title": "Proyectos Académicos de Programación",
+      "sub_title": "Universidad",
+      "years": "2023 - Presente",
+      "details": "Desarrollo de ejercicios y proyectos utilizando Java, HTML, CSS y JavaScript. Implementación de lógica, estructuras de datos básicas y prácticas de programación orientada a objetos."
     },
-    "experiences": [
-        {
-            "title": "Senior Software Engineer",
-            "sub_title": "Tech Solutions Inc.",
-            "years": "2021 - Present",
-            "details": "Led the development of a scalable e-commerce platform that increased sales by 30%. Worked with modern technologies including React, Node.js, and AWS."
-        },
-        {
-            "title": "Software Engineer",
-            "sub_title": "Innovate Labs",
-            "years": "2018 - 2021",
-            "details": "Developed and maintained web applications for various clients. Key contributor in migrating legacy systems to cloud infrastructure."
-        },
-        {
-            "title": "Junior Developer",
-            "sub_title": "Creative Apps Studio",
-            "years": "2015 - 2018",
-            "details": "Worked on mobile app development, collaborating with design teams to create user-friendly applications."
-        }
-    ],
-    "education": [
-        {
-            "title": "Bachelor of Science in Computer Science",
-            "sub_title": "University of Modern Tech",
-            "years": "2015 - 2019",
-            "details": "Graduated with honors. Specialized in software development, data structures, and algorithms. Worked on various open-source projects and completed internships in tech companies."
-        },
-        {
-            "title": "Master of Science in Software Engineering",
-            "sub_title": "Global Tech Institute",
-            "years": "2019 - 2021",
-            "details": "Focused on advanced algorithms, cloud computing, and full-stack development. Published research papers on scalable microservices architecture."
-        }
-    ],
-    "projects": [
-        {
-            "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",
-            "title": "hello.com",
-            "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
-        },
-        {
-            "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=764&auto=format&fit=crop",
-            "title": "Paul UI kit collections",
-            "type": "UI Kit",
-            "link": "https://github.com/wasutz/astro-resume-theme"
-        },
-        {
-            "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
-            "title": "paul.com",
-            "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
-        }
-    ],
-    "menuItems": [
-        {
-            "name": "About",
-            "link": "/"
-        },
-        {
-            "name": "Blog",
-            "link": "/blogs"
-        }
-    ],
-    "socialLinks": [
-        {
-            "iconName": "Github",
-            "link": "https://github.com/wasutz/astro-resume-theme"
-        },
-        {
-            "iconName": "Facebook",
-            "link": "https://facebook.com"
-        },
-        {
-            "iconName": "Instagram",
-            "link": "https://instagram.com"
-        }
-    ]
+    {
+      "title": "Aprendizaje de Linux y Terminal",
+      "sub_title": "Práctica personal",
+      "years": "2024 - Presente",
+      "details": "Uso de comandos básicos de Linux, gestión de archivos, procesos y scripts bash como parte del fortalecimiento de habilidades técnicas."
+    },
+    {
+      "title": "Trabajo en equipo académico",
+      "sub_title": "Proyectos universitarios",
+      "years": "2023 - Presente",
+      "details": "Participación activa en trabajos grupales, aportando ideas, apoyando a compañeros y cumpliendo responsabilidades asignadas para entregar proyectos de calidad."
+    }
+  ],
+
+  "education": [
+    {
+      "title": "Ingeniería de Sistemas",
+      "sub_title": "Universidad",
+      "years": "2023 - Presente",
+      "details": "Formación en programación, bases de datos, sistemas operativos y desarrollo web. Participación activa en proyectos académicos."
+    },
+    {
+      "title": "Cursos Complementarios",
+      "sub_title": "Aprendizaje autónomo",
+      "years": "2024 - Presente",
+      "details": "Refuerzo de conocimientos en Java, HTML, CSS, JavaScript y Linux mediante prácticas y proyectos personales."
+    },
+    {
+      "title": "Bachillerato",
+      "sub_title": "",
+      "years": "2014 - 2022",
+      "details": "Realizado en Santa Cruz, Bolivia. Formación académica integral con énfasis en responsabilidad, disciplina y bases sólidas para estudios universitarios."
+    }
+  ],
+
+  "projects": [
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
+      "title": "Traductor de código",
+      "type": "Proyecto académico",
+      "link": "#"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",
+      "title": "Página web personal",
+      "type": "Proyecto estudiantil",
+      "link": "#"
+    }
+  ],
+
+  "menuItems": [
+    {
+      "name": "Sobre mí",
+      "link": "/"
+    },
+    {
+      "name": "Proyectos",
+      "link": "/projects"
+    }
+  ],
+
+  "socialLinks": [
+    {
+      "iconName": "Github",
+      "link": "https://github.com/"
+    },
+    {
+      "iconName": "Facebook",
+      "link": "https://facebook.com"
+    },
+    {
+      "iconName": "Instagram",
+      "link": "https://instagram.com"
+    }
+  ]
 }
