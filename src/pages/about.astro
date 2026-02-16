@@ -12,8 +12,8 @@ import Layout from '../layouts/Layout.astro';
     Gracias por querer conocerme mejor , en el siguiente video te contare más sobre mi  
   </p>
 
-  <video controls class="mx-auto rounded-xl shadow-lg max-w-full">
-  <source src="/presentacion.mp4" type="video/mp4">
+<video controls class="mx-auto rounded-xl shadow-lg max-w-full">
+  <source src={`${import.meta.env.BASE_URL}presentacion.mp4`} type="video/mp4">
   <p>Tu navegador no soporta video.</p>
 </video>
 
