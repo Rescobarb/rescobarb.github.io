@@ -27,7 +27,7 @@
     }
   ],
 
-  "educacion": [
+  "education": [
     {
       "title": "Ingeniería de Sistemas",
       "sub_title": "Universidad",
@@ -71,10 +71,10 @@
   {
     "name": "Evidencias",
     "children": [
-      { "name": "SQL", "link": "/evidencias/sql" },
-      { "name": "PL/SQL Scripts", "link": "/evidencias/plsql" },
-      { "name": "NoSQL", "link": "/evidencias/nosql" },
-      { "name": "Proyecto", "link": "/evidencias/proyecto" }
+      { "name": "SQL", "#": "/evidencias/sql" },
+      { "name": "PL/SQL Scripts", "#": "/evidencias/plsql" },
+      { "name": "NoSQL", "#": "/evidencias/nosql" },
+      { "name": "Proyecto", "#": "/evidencias/proyecto" }
     ]
   }
 ],
