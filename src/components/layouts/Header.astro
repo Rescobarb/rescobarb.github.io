@@ -14,9 +14,33 @@ import { basic, menuItems } from "../../config/cv.json";
     <div class="flex gap-5">
       <!-- PC Menu -->
       <nav class="hidden sm:flex space-x-6 items-center">
-        {menuItems.map((item) => (
-          <a href={item.link} class="hover:text-offset">{item.name}</a>
+      {menuItems.map((item) => (
+  item.children ? (
+    <div class="relative group">
+      <span class="cursor-pointer hover:text-offset">
+        {item.name}
+      </span>
+
+      <div class="absolute hidden group-hover:block bg-background shadow-lg rounded mt-2 min-w-[160px]">
+
+        {item.children.map((child) => (
+          <a
+            href={child.link}
+            class="block px-4 py-2 hover:bg-background-offset"
+          >
+            {child.name}
+          </a>
         ))}
+
+      </div>
+    </div>
+  ) : (
+    <a href={item.link} class="hover:text-offset">
+      {item.name}
+    </a>
+  )
+))}
+
       </nav>
 
       <!-- Mobile Menu Button -->
