@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import raulImage from '../../assets/raul_escobar.png';
 ---
 
 <Layout title="Presentación">
@@ -9,14 +10,32 @@ import Layout from '../layouts/Layout.astro';
   <h1 class="text-4xl font-bold mb-8">Presentación</h1>
 
   <p class="mb-10 text-lg">
-    Gracias por querer conocerme mejor , en el siguiente video te contare más sobre mi  
+    Gracias por querer conocerme mejor, en el siguiente video te contaré más sobre mí.
   </p>
 
-<video controls class="mx-auto rounded-xl shadow-lg max-w-full">
-  <source src={`${import.meta.env.BASE_URL}presentacion.mp4`} type="video/mp4">
-  <p>Tu navegador no soporta video.</p>
-</video>
+  <!-- VIDEO -->
+  <video controls class="mx-auto rounded-xl shadow-lg max-w-full">
+    <source src={`${import.meta.env.BASE_URL}presentacion.mp4`} type="video/mp4">
+    <p>Tu navegador no soporta video.</p>
+  </video>
 
+  <!-- FOTO + DESCRIPCIÓN -->
+  <div class="mt-12 flex flex-col items-center gap-6">
+
+    <img
+      src={raulImage}
+      alt="Raúl Escobar"
+      class="w-40 h-40 object-cover rounded-full shadow-lg"
+    />
+
+    <p class="text-lg max-w-xl text-center text-offset">
+      En este video me presento y comparto un poco sobre quién soy, mis intereses
+      y mis objetivos como estudiante de Ingeniería de Sistemas. Hablo sobre mi
+      motivación por aprender, crecer profesionalmente y dar lo mejor de mí durante
+      este semestre.
+    </p>
+
+  </div>
 
 </section>
 
