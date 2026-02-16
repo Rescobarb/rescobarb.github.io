@@ -6,7 +6,7 @@
     "cv_file_name": "Raul_Escobar_cv.pdf"
   },
 
-  "experiencias": [
+  "experiences": [
     {
       "title": "Proyectos Académicos de Programación",
       "sub_title": "Universidad",
@@ -27,7 +27,7 @@
     }
   ],
 
-  "educación": [
+  "educacion": [
     {
       "title": "Ingeniería de Sistemas",
       "sub_title": "Universidad",
@@ -71,10 +71,10 @@
   {
     "name": "Evidencias",
     "children": [
-      { "name": "SQL", "#": "/evidencias/sql" },
-      { "name": "PL/SQL Scripts", "#": "/evidencias/plsql" },
-      { "name": "NoSQL", "#": "/evidencias/nosql" },
-      { "name": "Proyecto", "#": "/evidencias/proyecto" }
+      { "name": "SQL", "link": "/evidencias/sql" },
+      { "name": "PL/SQL Scripts", "link": "/evidencias/plsql" },
+      { "name": "NoSQL", "link": "/evidencias/nosql" },
+      { "name": "Proyecto", "link": "/evidencias/proyecto" }
     ]
   }
 ],
