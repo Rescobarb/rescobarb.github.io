@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import raulImage from '../../assets/raul_escobar.png';
 ---
@@ -22,11 +23,12 @@ import raulImage from '../../assets/raul_escobar.png';
   <!-- FOTO + DESCRIPCIÓN -->
   <div class="mt-12 flex flex-col items-center gap-6">
 
-    <img
+    <Image
   src={raulImage}
   alt="Raúl Escobar"
-  loading="lazy"
-  class="w-40 h-40 object-cover rounded-full shadow-lg"
+  width={160}
+  height={160}
+  class="rounded-full shadow-lg"
 />
 
     <p class="text-lg max-w-xl text-center text-offset">
