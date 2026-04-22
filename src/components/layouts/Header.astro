@@ -17,9 +17,9 @@ import { basic, menuItems } from "../../config/cv.json";
       {menuItems.map((item) => (
   item.children ? (
      <div class="relative group">
-  <a href={item.link} class="cursor-pointer hover:text-offset">
+  <span class="cursor-pointer hover:text-offset">
     {item.name}
-  </a>
+  </span>
 
   <div class="absolute hidden group-hover:block bg-background shadow-lg rounded top-full min-w-[160px]">
     {item.children.map((child) => (
