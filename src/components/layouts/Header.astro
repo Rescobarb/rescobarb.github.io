@@ -16,12 +16,12 @@ import { basic, menuItems } from "../../config/cv.json";
       <nav class="hidden sm:flex space-x-6 items-center">
       {menuItems.map((item) => (
   item.children ? (
-    <div class="relative" id="dropdown-evidencias">
+     <div class="relative group">
   <a href={item.link} class="cursor-pointer hover:text-offset">
     {item.name}
   </a>
 
-  <div id="dropdown-menu" class="absolute hidden bg-background shadow-lg rounded top-full min-w-[160px]">
+  <div class="absolute hidden group-hover:block bg-background shadow-lg rounded top-full min-w-[160px]">
     {item.children.map((child) => (
       <a href={child.link} class="block px-4 py-2 hover:bg-background-offset">
         {child.name}
