@@ -71,10 +71,10 @@
   {
     "name": "Evidencias",
     "children": [
-  { "name": "SQL", "link": "/evidencias/sql" },
-  { "name": "PL/SQL Scripts", "link": "/evidencias/plsql" },
-  { "name": "NoSQL", "link": "/evidencias/nosql" },
-  { "name": "Proyecto", "link": "/evidencias/proyecto" }
+  { "name": "SQL", "link": "https://github.com/Rescobarb/rescobarb.github.io/tree/Evidencias" },
+  { "name": "PL/SQL Scripts", "link": "https://github.com/Rescobarb/rescobarb.github.io/tree/Evidencias" },
+  { "name": "NoSQL", "link": "https://github.com/Rescobarb/rescobarb.github.io/tree/Evidencias" },
+  { "name": "Proyecto", "link": "https://github.com/Rescobarb/rescobarb.github.io/tree/Evidencias" }
 ]
   }
 ],
